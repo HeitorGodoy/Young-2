@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image:url(img/Aniversario.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+main{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px white;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+}
+
+.contador-elemento{
+    text-align: center;
+    margin: 5px;
+}
+
+.contador-elemento span{
+    font-size: 15px;
+}
+p{
+    font-size: 30px;
+    margin: 0 2px;
+    line-height: 1;
+}
+
+footer{
+    position: absolute;
+    bottom: 20px;
+    background: rgba(128, 128, 128, 0.4);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-style: italic;
+    backdrop-filter: blur(10px);
+    font-style: bold;
+}
